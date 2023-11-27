@@ -14,3 +14,4 @@ scipy==1.11.3
 seaborn==0.13.0
 streamlit
 streamlit-option-menu==0.3.6
+wordcloud==1.9.2
