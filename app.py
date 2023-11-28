@@ -183,7 +183,7 @@ if selected == 'Dashboard':
     st.title('Analisis Sentimen')
     st.write("by Putri Lailatul Maghfiroh")
     st.header("Analisis Sentimen Pada Ulasan Kenaikan BBM Dengan Penerapan Metode Random Forest dan Seleksi Fitur Information Gain")
-    st.write("Sebuah aplikasi yang mampu mengklasifikasikan sentimen suatu ulasan dengan menggunakan metode Random Forest dan Seleksi fitur Information Gain. Data latih yang digunakan dalam sistem ini diambil dari Twitter dengan kata kunci 'Kenaikan BBM' dan 'BBM Naik'.")
+    st.write("Sebuah aplikasi yang mampu mengklasifikasikan sentimen suatu ulasan dengan menggunakan metode Random Forest dan Seleksi fitur Information Gain. Data latih yang digunakan dalam sistem ini diambil dari Twitter dengan kata kunci 'BBM Naik'.")
     st.write("Akurasi dari sistem ini adalah 93.91%")
 
 @st.cache_data()
