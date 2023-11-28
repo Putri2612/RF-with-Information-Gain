@@ -105,7 +105,7 @@ def vectorize_data(data):
 # Melakukan oversampling menggunakan SMOTE
 @st.cache_data()
 def apply_smote(tfidf_df, y):
-    smote = SMOTE(random_state=42)
+    smote = SMOTE(random_state=42, k_neighbors=5)
     X_smote, y_smote = smote.fit_resample(tfidf_df, y)
     return X_smote, y_smote
 
